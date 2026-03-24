@@ -14,23 +14,23 @@ protected:
 	{};
 private:
 	int amountSides{0};
-	std::string name{"Фигура"};
+	std::string name{"Р¤РёРіСѓСЂР°"};
 };
 
 class Triangle : 
 	public Figure {
 public:
 	Triangle() : 
-		Figure(3,"Треугольник") 
+		Figure(3,"РўСЂРµСѓРіРѕР»СЊРЅРёРє") 
 	{};
 	
 };
 
 class Quadrangle :
-	public Figure{
+	public Figure {
 public:
 	Quadrangle() : 
-		Figure(4,"Четырёхугольник")
+		Figure(4,"Р§РµС‚С‹СЂС‘С…СѓРіРѕР»СЊРЅРёРє")
 	{};
 
 };
@@ -40,7 +40,7 @@ int main() {
 	Figure f;
 	Triangle t;
 	Quadrangle q;
-	std::cout << "Количество сторон:\n"
+	std::cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕСЂРѕРЅ:\n"
 		<< f.getName() << ": " << f.getSides() << "\n"
 		<< t.getName() << ": " << t.getSides() << "\n"
 		<< q.getName() << ": " << q.getSides() << "\n";
