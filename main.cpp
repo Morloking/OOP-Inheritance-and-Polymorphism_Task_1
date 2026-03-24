@@ -27,7 +27,7 @@ public:
 };
 
 class Quadrangle :
-	public Figure {
+	public Figure{
 public:
 	Quadrangle() : 
 		Figure(4,"Четырёхугольник")
